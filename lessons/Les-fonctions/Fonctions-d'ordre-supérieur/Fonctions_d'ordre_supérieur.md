@@ -65,3 +65,20 @@ askUserName(function(userName) {
     console.log("Hello, ${userName}.");
 }
 ```
+
+On peut retourner aussi une fonction
+```
+function getIdGenerator() {
+  let id = 0; // <-- variable privée
+  return function() {
+    id = id + 1;
+    return id; 
+  }
+}
+
+// le seul moyen d'y accéder est via la fonction renvoyée par "getIdGenerator"
+const generateUniqueId = getIdGenerator()
+console.log(generateUniqueId()) 
+console.log(generateUniqueId())
+console.log(generateUniqueId())
+```
