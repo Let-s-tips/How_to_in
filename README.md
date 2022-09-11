@@ -11,7 +11,8 @@
 1. [Méthodes fonctionelles](lessons/Tableau/Méthodes-fonctionnelles/méthodes-fonctionnelles.md)
 
 ### Le DOM
-1. [Introduction]
+1. [Introduction](lessons/DOM/Introduction.md)
+2. [Créer des éléments](lessons/DOM/Créer_des_éléments.md)
 
 ### POO les bases
 1. [Les bases](lessons/POO/Les-bases/Les_bases.md)

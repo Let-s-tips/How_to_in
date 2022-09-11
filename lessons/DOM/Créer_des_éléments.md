@@ -108,6 +108,7 @@ for (let i = 0; i < dogs.length; i++) {
 Il est possible de changer le style d'un élément HTML en utilisant la propriété style.
 Le nom de la propriété doit être écrit en utilisant le camel case (nous ne pouvons pas utiliser de - lors du nommage en
 Javascript).
+
 ```
 someDiv.style.backgroundColor = "lightblue";
 someText.style.fontSize = "20px";
@@ -117,3 +118,11 @@ someText.style.fontSize = "20px";
 
 # Ajouter/Supprimer une classe
 
+Il est aussi possible d'ajouter/supprimer une classe sur un élément.
+
+```
+element.classList.add('myClass');
+element.classList.remove('myClass');
+```
+
+Avec classList l'élément est spécifié, nous n'avons pas besoins d'utiliser . avant le nom de la class.
