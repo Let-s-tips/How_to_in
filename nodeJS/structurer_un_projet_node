@@ -1,0 +1,13 @@
+##Introduction
+
+Il est important de donner une structure MVC à notre projet
+
+##La structuration
+
+```
+SRC
+ |-Controller->someFiles
+ |-Entity->someFiles
+ |-
+ index.js
+```
