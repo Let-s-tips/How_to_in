@@ -1,3 +1,7 @@
+# Introduction
+
+## Un composant c'est quoi ?
+
 Un composant est une brique réutilisable et isolée. Les composants sont les briques fonctionnelles sur lesquelles repose
 votre application.
 

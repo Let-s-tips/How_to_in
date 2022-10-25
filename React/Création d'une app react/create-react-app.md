@@ -8,7 +8,7 @@ React, react-dom et react-scripts
 react: c'est le cœur du framework ceci va nous permettre de créer des composants que l'on va ensuite pouvoir utiliser
 dans notre application.
 react-dom: librairie qui va être complémentaire récupérée les composant pour les afficher sur un dom
-react-scripts: ensemble de script qui va nous permettre de lancer un serv de dev, build .....
+react-scripts: ensemble de script qui va nous permettre de lancer un serv de dev, build ...
 
 Toutes les librairies vont être installées dans nodes_modules que l'on add dans le .gitignore. Package est un fichier
 qui récence toutes les librairies indispensables pour faire tourner notre application. Dedans aussi, on retrouve le nom
