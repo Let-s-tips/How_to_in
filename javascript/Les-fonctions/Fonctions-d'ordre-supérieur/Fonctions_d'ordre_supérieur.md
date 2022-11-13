@@ -10,14 +10,14 @@
 On peut créer des fonctions sans aucun label.
 
 On peut les lancer instantanément :
-```
+```javascript
 (function() {
 console.log("I'm a self-invoking anonymous function");
 })();
 ```
 
 Ou nous pouvons la stocker dans une variable :
-```
+```javascript
 const helloWorld = function() {
 console.log("Hello, world);
 };
@@ -36,7 +36,7 @@ Une fonction de rappel ou callback est une fonction passée en paramètre d'une 
 Voici un exemple ou la fonction askUserName aura callback en argument. Elle pourra accepter une autre fonction en argument(
 en tant que fonction de rappel)
 
-```
+```javascript
 function sayHello(userName) {
     console.log(`hello, ${userName}.`);
 }
@@ -55,7 +55,7 @@ console.log(askUserName(sayWelcome);
 ```
 
 askUserName accepte aussi des fonctions en argument, on peut écrire des fonctions anonymes directement à la place de l'argument.
-```
+```javascript
 function askUserName(callback) {
     const name = prompt("What's ur name ?")
     callback(name);
@@ -67,7 +67,7 @@ askUserName(function(userName) {
 ```
 
 On peut retourner aussi une fonction
-```
+```javascript
 function getIdGenerator() {
   let id = 0; // <-- variable privée
   return function() {

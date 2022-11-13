@@ -7,7 +7,7 @@ npm install typeorm
 ```
 
 Dans le package.json
-```
+```yaml
 "scripts": {
 "start": "nodemon index.js"
 }

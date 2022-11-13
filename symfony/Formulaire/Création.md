@@ -12,7 +12,7 @@ Ou à la main faire
 SRC
  |->Form -> FormType.php
 ```
-```
+```php
 class CustomerType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
@@ -37,14 +37,14 @@ class CustomerType extends AbstractType
 Pour afficher un formulaire via Twig, on intervient dans deux fichiers : un form et la page plus générale qui incluera ce dernier.
 
 Dans customer/_form.html.twig
-```
+```php
 {{ form_start(form) }}
     {{ form_widget(form) }}
     <button class="btn">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
 ```
 Dans customer/add.html.twig
-```
+```php
 {% extends 'base.html.twig' %}
 
 {% block title %}New Customer{% endblock %}

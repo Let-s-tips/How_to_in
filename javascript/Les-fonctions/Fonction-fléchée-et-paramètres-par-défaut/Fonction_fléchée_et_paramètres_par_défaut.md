@@ -7,7 +7,7 @@
 On peut définir une valeur par défaut pour les paramètres d'une fonction. Si aucun argument n'est
 donné, une valeur par défaut sera utilisée.
 
-```
+```javascript
 function sayHello(name = "World") {
   console.log(`Hello, ${name}!`);
 }
@@ -19,7 +19,7 @@ sayHello("Bob");
 // Hello, Bob!
 ```
 Nous pouvons aussi initialiser un tableau vide en paramètre pour éviter de planter le code si aucun tableau n'est passé.
-```
+```javascript
 function logArray(array = []){
      for(let i = 0; i < array.length; i++){
           console.log(array[i]);
@@ -33,7 +33,7 @@ Ici le code ne plantera pas.
 
 Les fonctions fléchées sont une autre façon de créer des fonctions.
 
-```
+```javascript
 const sayHello = (name) => {
   return `Hello, ${name}`;
 }
@@ -41,7 +41,7 @@ console.log(sayHello('bob'));
 ```
 
 Si on n'utilises pas les accolades après la flèche, alors ce qui sera après la flèche sera la valeur de retour (return) de la fonction.
-```
+```javascript
 function sum(a + b) {
 return a + b
 }

@@ -19,7 +19,7 @@ En premier nous devons créer le controllet
 symfony console make:controller Login
 ```
 copié collé le code ci-dessous
-```
+```php
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -46,7 +46,7 @@ class LoginController extends AbstractController
 }
 ```
 De même pour la vue login
-```
+```php
 {% extends 'base.html.twig' %}
 
 {% block body %}
@@ -69,7 +69,7 @@ De même pour la vue login
 {% endblock %}
 ```
 Dans le fichier config/packages/security.yaml, ajouter
-```
+```yaml
 security:
     firewalls:
         main:
@@ -80,7 +80,7 @@ security:
 ## Déconnexion
 
 Aller dans config/packages/security.yaml et ajouter
-```
+```yaml
 security:
     firewalls:
         main:
@@ -91,7 +91,7 @@ security:
                 # target: app_any_route
 ```
 Créer une route spécifique dans LoginController.php
-```
+```php
 namespace App\Controller;
 
 // ...

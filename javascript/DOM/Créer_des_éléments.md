@@ -8,13 +8,13 @@
 
 Pour créer un élément, on utilise la méthode createElement:
 
-```
+```javascript
 const newCatImage = document.createElement('img');
 ```
 
 Dans ce cas, parce que nous voulons créer une image, nous devons donner une source à cette nouvelle image:
 
-```
+```javascript
 newCatImage.src = "https://placekitten.com/408/287";
 ```
 
@@ -22,14 +22,14 @@ Enfin, pour l'ajouter au DOM, nous pouvons utiliser la méthode appendChild.
 La méthode appendChild va ajouter l'élément passé à la fin de l'élément sur lequel tu utilises la méthode.
 Dans cet exemple, ceci ajoutera newCatImage à la fin de document.body:
 
-```
+```javascript
 document.body.appendChild(newCatImage);
 ```
 
 Cette méthode est également disponible sur d'autres noeuds HTML, par exemple, tu peux l'utiliser pour ajouter un élément
 à une <div>.
 
-```
+```javascript
 const myDiv = document.querySelector('.myDiv');
 myDiv.appendChild(myElement);
 ```
@@ -37,7 +37,7 @@ myDiv.appendChild(myElement);
 Exemple :
 code HTML
 
-```
+```html
 <div class="first-card">
   <h1 class="card-title">First cat:</h1>
   <img src="https://placekitten.com/200/400" class="card-img" />
@@ -49,7 +49,7 @@ code HTML
 
 code JS
 
-```
+```javascript
 const newCatImage = document.createElement('img');
 const secondCard = document.querySelector('.second-card');
 
@@ -62,7 +62,7 @@ secondCard.appendChild(newCatImage);
 
 # Changer la position d'un Élément
 
-```
+```html
 <div id="first-div">
   <h1>Move the cat here:</h1>
   <img src="https://placekitten.com/200/139" id="first-cat-img" />
@@ -71,7 +71,8 @@ secondCard.appendChild(newCatImage);
   <h1>Move this cat up:</h1>
   <img src="https://placekitten.com/200/135" id="second-cat-img" />
 </div>
-
+```
+```javascript
 const secondCat = document.querySelector('#second-cat-img');
 const firstDiv = document.querySelector('#first-div');
 
@@ -84,7 +85,7 @@ firstDiv.appendChild(secondCat);
 
 On peut supprimer un élément du DOM en utilisant la propriété remove.
 
-```
+```html
 <h1>Delete all the Dogs or sCats!</h1>
     <img src="https://placedog.net/300/200" class="img-dog" />
     <img src="https://placekitten.com/408/286" class="img-cat" />
@@ -93,7 +94,8 @@ On peut supprimer un élément du DOM en utilisant la propriété remove.
     <img src="https://placedog.net/350/200" class="img-dog" />
     <img src="https://placedog.net/340/200" class="img-dog" />
     <img src="https://placekitten.com/409/287" class="img-cat" />
-
+```
+```javascript
 const dogs = document.querySelectorAll(".img-dog");
 
 for (let i = 0; i < dogs.length; i++) {  
@@ -109,7 +111,7 @@ Il est possible de changer le style d'un élément HTML en utilisant la proprié
 Le nom de la propriété doit être écrit en utilisant le camel case (nous ne pouvons pas utiliser de - lors du nommage en
 Javascript).
 
-```
+```javascript
 someDiv.style.backgroundColor = "lightblue";
 someText.style.fontSize = "20px";
 ```
@@ -120,7 +122,7 @@ someText.style.fontSize = "20px";
 
 Il est aussi possible d'ajouter/supprimer une classe sur un élément.
 
-```
+```javascript
 element.classList.add('myClass');
 element.classList.remove('myClass');
 ```

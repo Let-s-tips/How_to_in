@@ -3,7 +3,7 @@
 ## Protection CSRF
 
 Dans le fichier config/packages/security.yaml, ajouter
-```
+```yaml
 security:
     firewalls:
         secured_area:
@@ -11,13 +11,13 @@ security:
                 enable_csrf: true
 ```
 Dans templates/login/index.html.twig, ajouter au dessus du bouton submit
-```
+```php
 <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
 ```
 
 ## Limiter les tentatives de connexion
 Pour éviter le bruteforcing par exemple, ajouter les lignes suivantes à config/packages/security.yaml (selon celles qui vous intéressent)
-```
+```yaml
 security:
     firewalls:
         main:

@@ -28,7 +28,7 @@ Installons bootstrap
 yarn add bootstrap --dev
 ```
 Ajouter dans app.scss
-```
+```scss
 @import "~bootstrap/scss/bootstrap";
 ```
 Installer le js de bootstrap
@@ -36,11 +36,11 @@ Installer le js de bootstrap
 yarn add @popperjs/core --dev
 ```
 Et dans app.js rajouter
-```
+```js
 require('bootstrap');
 ```
 Pour charger les images nous devons ajouter le code suivant dans webpack.config.js
-```
+```js
 .copyFiles({
     from: './assets/images',
 

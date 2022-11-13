@@ -12,7 +12,7 @@
 
 Pour la gestion des clics, tu peux modifier la propriété onclick en y affectant une fonction.
 
-```
+```javascript
 someDiv.onclick = function () {
   someDiv.style.backgroundColor = "red";
 };
@@ -25,7 +25,7 @@ someDiv.onclick = function () {
 addEventListener est une méthode qui accepte comme premier paramètre le type d'événement, et le second est une fonction
 de rappel(callback function)
 
-```
+```javascript
 someDiv.addEventListener('click', function() {
     someDiv.style.backgroundColor = "red";
 });
@@ -47,7 +47,7 @@ addEventListener peut être utilisé pour écouter un grand nombre d'événement
 Nous pouvons ajouter une fonction qui sera exécutée lorsqu'un formulaire est envoyé, en utlisant la propriété onsubmit
 sur l'élément form.
 
-```
+```javascript
 const form = document.queryselector('#form');
 
 form.onsbumit = function () {
@@ -61,7 +61,7 @@ Pour empêcher la page de se rafraîchir, nous pouvons utiliser une méthode que
 preventDefault.
 preventDefault empêchera la page de se recharger.
 
-```
+```javascript
 const form = document.querySelector("#form");
 
 form.onsubmit = function (event) {
@@ -72,7 +72,7 @@ form.onsubmit = function (event) {
 
 De plus, nous pourrions obtenir la valeur de l'input afin de pouvoir afficher le nom que l'utilisateur a tapé.
 
-```
+```javascript
 const form = document.querySelector("#form");
 const firstName = document.querySelector("#firstname");
 const lastName = document.querySelector("#lastname");
@@ -92,7 +92,7 @@ est déjà présente alors elle la supprimera.
 C'est utile, par exemple, dans le cas où tu veux créer un menu déroulant. Lorsque l'utilisateur clique dessus, cela
 supprime ou ajoute la classe visible.
 
-```
+```javascript
 element.classList.toggle("mystyle");
 ```
 
@@ -105,7 +105,7 @@ ce paramètre est l'objet event.
 
 L'objet event contient beaucoup de propriétés et de méthodes concernant l'événement qui vient de se produire.
 
-```
+```javascript
 const title = document.querySelector(".title");
 
 title.addEventListener("click", function (event) {

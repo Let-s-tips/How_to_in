@@ -9,7 +9,7 @@
 
 Celle-ci fonctionne de la même manière qu'un sélecteur CSS. Entre parenthèses, il suffit d'écrire le sélecteur souhaité.
 
-```
+```javascript
 const someDivClass = document.querySelector('.my-div');
 const someImg = document.querySelector('.my-img');
 const someDivId = document.querySelector('#another-div');
@@ -18,7 +18,7 @@ const someH1 = document.querySelector('.my-div h1');
 
 Exemple:
 
-```
+```html
 <img
   src="https://placekitten.com/200/287"
   alt="Happy cat"
@@ -28,13 +28,13 @@ Exemple:
 
 On cible la class
 
-```
+```javascript
 const imgCat = document.querySelector('.img-cat');
 ```
 
 Et on change l'image
 
-```
+```javascript
 imgCat.src = "https://placekitten.com/200/286";
 ```
 
@@ -44,9 +44,10 @@ imgCat.src = "https://placekitten.com/200/286";
 
 La méthode InnerHTML est utilisé pour modifier le contenu d'une balise HTML.
 
-```
+```html
 <h1 class="title">Hello, World!</h1>
-
+```
+```javascript
 const userName = prompt("What's your name");
 const title = document.querySelector('.title');
 title.innerHTML = `Hello, ${userName}`;
@@ -60,16 +61,17 @@ On peut également utiliser document.getElementById ou document.getElementByTagN
 ils sont également pris en charge par les anciens navigateurs tels qu'Internet Explorer 6 - 7 (ce qui n'est pas le cas
 de querySelector).
 
-```
+```javascript
 const title = document.getElementById('title');
 const heading = document.getElementsByTagName('h1');
 ```
 
 Exemple:
 
-```
+```html
 <img src="https://placebear.com/800/500" alt="Bear Image" id="bear-img" />
-
+```
+```javascript
 const bearImg = document.getElementById("bear-img");
 bearImg.width = "500";
 bearImg.alt = "A cute wild bear";
@@ -78,7 +80,7 @@ bearImg.alt = "A cute wild bear";
 S'il y a plus d'un élément avec le même sélecteur dans le document (ex multiple h1), celui sélectionné par défaut sera
 la première occurrence.
 Si tu veux obtenir un tableau avec plusieurs éléments tu peux utiliser document.querySelectorAll.
-```
+```javascript
 const bearsPictures = [
   "https://placebear.com/500/279",
   "https://placebear.com/500/280",

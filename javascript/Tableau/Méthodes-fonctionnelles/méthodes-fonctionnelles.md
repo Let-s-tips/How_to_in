@@ -17,7 +17,7 @@ La fonction de rappel donnée en argument de map est appelée avec chaque élém
 et
 la valeur de retour de ce callback sera la valeur de l'élément dans le nouveau tableau.
 
-```
+```javascript
 const animals = [
   { name: "Hector", species: "Beaver" },
   { name: "Edouard", species: "Duck" },
@@ -50,7 +50,7 @@ C'est un nombre qui augmentera à chaque itération de la boucle, en partant de 
 forEach effectuera une action pour chaque élément du tableau. Attention map va générer un nouveau tableau,
 forEach va juste faire une action pour chaque élément du tableau.
 
-```
+```javascript
 let sentences = animals.forEach(
   (animal, index) => `${animal.name} the ${animal.species}, the number ${index}`
 );
@@ -63,7 +63,7 @@ console.log(sentences); // undefined
 ## Méthodes filter
 
 Filter crée un nouveau tableau avec seulement les éléments qui vérifient une condition donnée.
-```
+```javascript
 const animals = [
   {
     name: "Oscar",
