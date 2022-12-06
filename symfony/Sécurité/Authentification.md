@@ -1,4 +1,6 @@
-# make:auth c'est bien le faire à la main c'est mieux
+# L'authenfication
+
+## make:auth c'est bien le faire à la main c'est mieux
 
 Avant tout lire la [doc](https://symfony.com/doc/current/security.html#form-login).
 

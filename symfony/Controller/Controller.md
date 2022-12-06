@@ -1,3 +1,5 @@
+# Comment est fait un controller
+
 Cette classe va contenir des actions, qui seront appelées via le mécanisme de routing.
 
 Par convention, le nom de ces classes est suffixé par Controller, par exemple, ForumController. Tu en déduiras

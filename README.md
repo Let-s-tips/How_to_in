@@ -41,7 +41,21 @@
 ### Initialiser un projet
 
 1. [Nouveau projet](symfony/Initialisation/Nouveau_projet)
-1. [Installer un projet](symfony/Initialisation/Installer_un_projet)
+2. [Installer un projet](symfony/Initialisation/Installer_un_projet)
+
+### Controller
+
+1. [Controller](symfony/Controller/Controller.md)
+
+### Formulaire
+
+1. [Création de formulaire](symfony/Formulaire/Création.md)
+2. [Afficher un formulaire](symfony/Formulaire/Afficher.md)
+
+### Sécurité
+
+1. [Authentification](symfony/Sécurité/Authentification.md)
+2. [CSRF & Tentatives de connexion](symfony/Sécurité/CSRF&tentatives_de_connexion.md)
 
 ---
 
@@ -64,10 +78,20 @@
 1. [Create-react-app](React/Création%20d'une%20app%20react/create-react-app.md)
 2. [JSX, render et createRoot](React/Création%20d'une%20app%20react/jsx,%20render%20et%20%20createRoot.md)
 
+## Composants
+
+1. [Introduction](React/Composants/introduction.md)
+2. [Exporter et importer des composants](React/Composants/exporter_et_importer_des_composants.md)
+
 ## Les props
 1. [Passer des props](React/Les%20Props/Passer_des_props.md)
 2. [Passage de props et children](React/Les%20Props/Passage_des_props_et_children.md)
 3. [Propriété children](React/Les%20Props/propriété_children.md)
+
+## Rendre les composants réactifs
+
+1. [Composants et fonctions purs](React/Rendre%20les%20composants%20réactifs/Composants_et_fonctions_purs.md)
+2. [Écouter des évènements](React/Rendre%20les%20composants%20réactifs/Écouter_des_évènements%20.md)
 
 ## Style, css et sass
 1. [Attribut & style](React/Styles,%20css%20et%20sass/jsx_attribut_style.md)
