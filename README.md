@@ -94,8 +94,9 @@
 1. [Composants et fonctions purs](React/Rendre%20les%20composants%20réactifs/Composants_et_fonctions_purs.md)
 2. [Écouter des évènements](React/Rendre%20les%20composants%20réactifs/Écouter_des_évènements%20.md)
 3. [Évenement, composants, paramètres](React/Rendre les composants réactifs/Évenement,_composants,_paramètres.md)
-4. [Présentation de userState](React/Rendre%20les%20composants%20réactifs/Présentation_de_userState().md)
+4. [Présentation de userState](React/Rendre%20les%20composants%20réactifs/Présentation_de_userState.md)
 5. [useState, batch et fonctions de mise à jour](React/Rendre%20les%20composants%20réactifs/useState_batch_maj.md)
+6. [Exemple d'utilisation des évènements et de useState](React/Rendre les composants réactifs/Exemple_d'utilisation_des_évènements_et_de_useState.md)
 
 ## Style, css et sass
 1. [Attribut & style](React/Styles,%20css%20et%20sass/jsx_attribut_style.md)
