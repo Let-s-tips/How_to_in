@@ -110,3 +110,22 @@
 
 ## Géstion d'état et communication des composants
 1. [Introduction à la géstion d'état et aux communications des composants](React/Géstion%20d'état%20et%20communication%20des%20composants/introduction.md)
+
+---
+
+# TypeScript
+
+## Index
+
+1. [Introduction](TypeScript/Introduction.md)
+2. [Installation](TypeScript/Installation.md)
+3. [Les types](TypeScript/Les_types.md)
+4. [Les variables](TypeScript/Les_variables.md)
+5. [Les opérateurs](TypeScript/Les_opérateurs.md)
+6. [Les fonctions](TypeScript/Les_fonctions.md)
+7. [Surcharge de fonction](TypeScript/Surcharge_de_fonction.md)
+8. [Les classes](TypeScript/Les_classes.md)
+9. [Les interfaces](TypeScript/Interfaces.md)
+10. [](TypeScript/)
+11. [](TypeScript/)
+12. [](TypeScript/)
