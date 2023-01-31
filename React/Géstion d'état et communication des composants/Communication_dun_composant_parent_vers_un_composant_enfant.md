@@ -33,7 +33,7 @@ function App() {
 export default App;
 ```
 
-La fonction suppression utilise la méthode filter() qyu retourne un nouveau tableau sans modifier le tableau dans la
+La fonction suppression utilise la méthode filter() qui retourne un nouveau tableau sans modifier le tableau dans la
 variable d'état todoList. On respecte la régle de ne pas modifier directement l'état.
 
 On passe la fonction suppression à notre todoList en prop.
