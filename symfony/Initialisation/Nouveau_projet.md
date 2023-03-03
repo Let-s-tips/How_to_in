@@ -15,7 +15,7 @@ symfony console doctrine:database:create
 Nous allons avoir besoin de Webpack Encore et de SassLoader
 ```
 composer require symfony/webpack-encore-bundle
-yarn add sass-loader@^12.0.0 sass --dev
+yarn add sass-loader
 ```
 Il faut absolument décommenter la ligne 59 dans webpack.config.js
 ```
