@@ -30,7 +30,7 @@
 
 ### Initialiser un projet
 
-1. [Les commandes](nodeJS/les_commandes.md)
+1. [Introduction 1/?](nodeJS/introduction.md)
 
 ---
 
@@ -57,7 +57,7 @@
 1. [Authentification](symfony/Sécurité/Authentification.md)
 2. [CSRF & Tentatives de connexion](symfony/Sécurité/CSRF&tentatives_de_connexion.md)
 
-## Flash message
+### Flash message
 
 ## Serializer
 
@@ -135,16 +135,20 @@
 
 ## Géstion d'état et communication des composants
 1. [Introduction à la géstion d'état et aux communications des composants](React/Géstion%20d'état%20et%20communication%20des%20composants/introduction.md)
+2. [Communication parent -> enfant](React/Géstion%20d'état%20et%20communication%20des%20composants/Communication_dun_composant_parent_vers_un_composant_enfant.md)
+3. [Communication enfant -> parent](React/Géstion%20d'état%20et%20communication%20des%20composants/Communication_dun_composant_enfant_vers_un_composant_parent%20.md)
+4. [Valider et editer une todo](React/Géstion%20d'état%20et%20communication%20des%20composants/Valider_editer_une_todo.md)
 
 ---
+<<<<<<< HEAD
 # React native
 
 ## Index
 1. [Introduction](React%20Native/Expo/Introduction.md)
 2. [Introduction: Créer une nouvelle APP](React%20Native/Expo/Créer_une_nouvelle_app.md)
 
-
 ---
+
 # TypeScript
 
 ## Index
@@ -158,3 +162,13 @@
 7. [Surcharge de fonction](TypeScript/Surcharge_de_fonction.md)
 8. [Les classes](TypeScript/Les_classes.md)
 9. [Les interfaces](TypeScript/Interfaces.md)
+
+---
+
+# TypeGraphQL
+
+## Index
+
+1. [Introduction](TypeGraphQL/Introcuction.md)
+2. [Installation](TypeGraphQL/Installation.md)
+3. [Types / Fields](TypeGraphQL/Types_and_fields.md)
