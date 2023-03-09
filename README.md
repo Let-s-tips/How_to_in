@@ -140,7 +140,6 @@
 4. [Valider et editer une todo](React/Géstion%20d'état%20et%20communication%20des%20composants/Valider_editer_une_todo.md)
 
 ---
-<<<<<<< HEAD
 # React native
 
 ## Index
