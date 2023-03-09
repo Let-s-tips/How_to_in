@@ -59,7 +59,32 @@
 
 ## Flash message
 
+## Serializer
 
+### Introduction
+
+1. [Présentation du composant Serializer et de ses fonctions]()
+2. [Utilité pour la transformation de données en différents formats]()
+
+### Architecture
+
+1. [Phases de la sérialisation : normalization et encoding]()
+2. [Phases de la désérialisation : decoding et denormalization]()
+3. [Pattern Chain of Responsibility utilisé pour enregistrer et utiliser différents normalizers et decoders]()
+
+### Utilisation
+
+1. [Initialisation d'un Serializer]()
+2. [Sérialisation d'un objet PHP en un format ouvert]()
+3. [Désérialisation d'un format ouvert en un objet PHP]()
+4. [Différence entre json_encode/json_decode et Serializer]()
+5. [Différents types de normalizers pour gérer des cas particuliers]()
+6. [Groupes d'attributs spécifiques et ArrayDenormalizer]()
+
+### Conclusion
+
+1. [Avantages et utilité du composant Serializer de Symfony pour les applications web]()
+2. [Conseils pour une utilisation optimale du Serializer.]()
 
 ---
 
@@ -112,7 +137,14 @@
 1. [Introduction à la géstion d'état et aux communications des composants](React/Géstion%20d'état%20et%20communication%20des%20composants/introduction.md)
 
 ---
+# React native
 
+## Index
+1. [Introduction](React%20Native/Expo/Introduction.md)
+2. [Introduction: Créer une nouvelle APP](React%20Native/Expo/Créer_une_nouvelle_app.md)
+
+
+---
 # TypeScript
 
 ## Index
