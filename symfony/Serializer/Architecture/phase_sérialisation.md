@@ -6,7 +6,7 @@ La première phase, la normalization, consiste à prendre un objet et à le tran
 la phase d'encodage permet de le convertir en un autre format, comme le JSON ou le XML.
 
 Pour la phase de normalization, il existe un normalizer sur Symfony appelé PropertyNormalizer. Il prend un objet PHP et
-utilise ses propriétés publiques pour créer un tableau associatif. Cependant, il n'utilise que les propriétés publiques.
+utilise ses propriétés publiques pour créer un tableau associatif. Cependant, il n'utilise que les propriétés getter et setter.
 
 Le serializer de Symfony implémente lui-même l'interface NormalizerInterface, il est donc également un normalizer. On
 peut donc appeler la méthode serialize->normalize, qui va déléguer au premier normalizer enregistré qui renvoie true
