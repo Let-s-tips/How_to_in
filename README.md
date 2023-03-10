@@ -63,29 +63,32 @@
 
 ### Introduction
 
-1. [Présentation du composant Serializer et de ses fonctions]()
-2. [Utilité pour la transformation de données en différents formats]()
+1. [Présentation du composant Serializer et de ses fonctions](symfony/Serializer/Introduction/introduction.md)
+2. [Utilité pour la transformation de données en différents formats](symfony/Serializer/Introduction/introduction2.md)
 
 ### Architecture
 
-1. [Phases de la sérialisation : normalization et encoding]()
-2. [Phases de la désérialisation : decoding et denormalization]()
-3. [Pattern Chain of Responsibility utilisé pour enregistrer et utiliser différents normalizers et decoders]()
+1. [Phases de la sérialisation : normalization et encoding](symfony/Serializer/Architecture/phase_sérialisation.md)
+2. [Phases de la désérialisation : decoding et denormalization](symfony/Serializer/Architecture/phase_désérialisation.md)
+3. [Pattern Chain of Responsibility utilisé pour enregistrer et utiliser différents normalizers et decoders](symfony/Serializer/Architecture/Chain_of_Responsibility.md)
+4. [Utilisation basique](symfony/Serializer/Architecture/utilisation_basique.md)
 
 ### Utilisation
 
-1. [Initialisation d'un Serializer]()
-2. [Sérialisation d'un objet PHP en un format ouvert]()
-3. [Désérialisation d'un format ouvert en un objet PHP]()
-4. [Différence entre json_encode/json_decode et Serializer]()
-5. [Différents types de normalizers pour gérer des cas particuliers]()
-6. [Groupes d'attributs spécifiques et ArrayDenormalizer]()
-
-### Conclusion
-
-1. [Avantages et utilité du composant Serializer de Symfony pour les applications web]()
-2. [Conseils pour une utilisation optimale du Serializer.]()
-
+1. [Initialisation d'un Serializer](symfony/Serializer/utilisation/initialisation.md)
+2. [Sérialisation d'un objet PHP en un format ouvert](symfony/Serializer/utilisation/sérialisation.md)
+3. [Désérialisation d'un format ouvert en un objet PHP](symfony/Serializer/utilisation/déserialisation.md)
+4. [Différence entre json_encode/json_decode et Serializer](symfony/Serializer/utilisation/json_decode_json_encode_&_Serializer.md)
+5. [Différents types de normalizers pour gérer des cas particuliers](symfony/Serializer/utilisation/différents_types.md)
+6. [Les groupes de sérialisation](symfony/Serializer/utilisation/Les_groupes.md)
+7. [Sélection d'attributs spécifiques](symfony/Serializer/utilisation/Sélection_attributs_spécifiques.md)
+8. [dénormalisation d'un tableau d'objets](symfony/Serializer/utilisation/dénormalisation_tableau%20_objets.md)
+9. [La dénormalisation recursive](symfony/Serializer/utilisation/denormalisation_recusrive.md)
+10. [Updating d’objet](symfony/Serializer/utilisation/Updating_object.md)
+11. [Hydrater à partir d'un constructor](symfony/Serializer/utilisation/hydrater_a_partir_1_constructeur.md)
+12. [Les reference circulaire](symfony/Serializer/utilisation/reference_circulaire.md)
+13. [pdd ](symfony/Serializer/utilisation/pdd.md)
+14. [Normalizer custom](symfony/Serializer/utilisation/normalizer_custom.md)
 ---
 
 ## Docker
